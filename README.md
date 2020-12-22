@@ -1,7 +1,11 @@
-# gis-unet
-Command line interface tool that implements the UNet deep learning architecture for GIS data. Can be trained, validated and used for predictions in any GIS-related segmentation task. The program expects a single n-band GeoTIFF image as the input data and a single multi-polygon shapefile as the target data.
+# gIms
+Command line interface for *g*eospatial *Im*age *s*egmentation.
 
-Comes with pre-trained weights for waterbody and bare land detection in the boreal forest.
+- Implements the UNet deep learning architecture for supervised segmentation of GIS data.
+- Can be trained, validated and used for predictions in any GIS-related segmentation task.
+- Uses any n-band GeoTIFF image as input data.
+- Uses any multi-polygon shapefile as target data.
+- Comes with pre-trained weights for waterbody and bare land detection in the boreal forest.
 
 See this project applied to geological [field work planning](https://medium.com/@charleslberube/orthophoto-segmentation-for-outcrop-detection-in-the-boreal-forest-679c3071d51f?source=friends_link&sk=003ef605211c68e12ae3879edb5e81e1).
 
@@ -15,8 +19,8 @@ See this project applied to geological [field work planning](https://medium.com/
 ## Installation
 
 ```console
-$ git clone https://github.com/clberube/gis-unet
-$ cd gis-unet
+$ git clone https://github.com/clberube/gims
+$ cd gims
 $ python setup.py install -f
 ```
 
