@@ -1,0 +1,5 @@
+numpy
+gdal
+pytorch
+rasterio
+h5py
