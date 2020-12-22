@@ -1,5 +1,5 @@
-# gIms
-Command line interface for *g*eospatial *Im*age *s*egmentation.
+# gims
+Command line interface for **g**eospatial **im**age **s**egmentation.
 
 - Implements the UNet deep learning architecture for supervised segmentation of GIS data.
 - Can be trained, validated and used for predictions in any GIS-related segmentation task.
