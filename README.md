@@ -1,6 +1,8 @@
 # gims
 Command line interface for **g**eospatial **im**age **s**egmentation.
 
+![img](/assets/img/heatmap-outcrops.png)
+
 - Implements the UNet deep learning architecture for supervised segmentation of GIS data.
 - Can be trained, validated and used for predictions in any GIS-related segmentation task.
 - Uses any n-band GeoTIFF image as input data.
@@ -8,6 +10,8 @@ Command line interface for **g**eospatial **im**age **s**egmentation.
 - Comes with pre-trained weights for waterbody and bare land detection in the boreal forest.
 
 See this project applied to geological [field work planning](https://medium.com/@charleslberube/orthophoto-segmentation-for-outcrop-detection-in-the-boreal-forest-679c3071d51f?source=friends_link&sk=003ef605211c68e12ae3879edb5e81e1).
+
+![img](/assets/img/example-use.png)
 
 ## Dependencies
 - [PyTorch](https://pytorch.org/)
