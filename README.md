@@ -1,10 +1,13 @@
 # gims
-Command line interface for **g**eospatial **im**age **s**egmentation.
+Python command line interface for **g**eospatial **im**age **s**egmentation.
 
 ![img](/assets/img/heatmap-outcrops.png)
 <p align="center">
   <i>Heatmap of bedrock exposure in the Baie-James area, northern Québec.</i>
 </p>
+
+## Application
+See [my article](https://medium.com/@charleslberube/orthophoto-segmentation-for-outcrop-detection-in-the-boreal-forest-679c3071d51f?source=friends_link&sk=003ef605211c68e12ae3879edb5e81e1) covering this project to assist geological field work planning with drone photography.
 
 ## How it works
 - Implements the UNet deep learning architecture for supervised segmentation of GIS data.
@@ -12,11 +15,6 @@ Command line interface for **g**eospatial **im**age **s**egmentation.
 - Uses any n-band GeoTIFF image as input data.
 - Uses any multi-polygon shapefile as target data.
 - Comes with pre-trained weights for waterbody and bare land detection in the boreal forest.
-
-## Application
-See my article on this project to assist geological [field work planning](https://medium.com/@charleslberube/orthophoto-segmentation-for-outcrop-detection-in-the-boreal-forest-679c3071d51f?source=friends_link&sk=003ef605211c68e12ae3879edb5e81e1).
-
-![img](/assets/img/example-use.png)
 
 ## Dependencies
 - [PyTorch](https://pytorch.org/)
