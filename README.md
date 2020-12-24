@@ -18,9 +18,12 @@ See [my article](https://medium.com/@charleslberube/orthophoto-segmentation-for-
 - Comes with pre-trained weights for waterbody and bare land detection in the boreal forest.
 
 ## Dependencies
+If you run into any trouble with the setup.py script, try installing each dependencies manually with `conda` or `pip`. The GDAL commands need to be recognized on your system.
 - [PyTorch](https://pytorch.org/)
 - [GDAL](https://gdal.org/index.html)
 - [numpy](https://numpy.org/)
+- [matplotlib](https://matplotlib.org/)
+- [scikit-learn](https://scikit-learn.org)
 - [rasterio](https://rasterio.readthedocs.io/en/latest/)
 - [h5py](https://www.h5py.org/)
 
