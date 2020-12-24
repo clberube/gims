@@ -3,7 +3,7 @@ Command line interface for **g**eospatial **im**age **s**egmentation.
 
 ![img](/assets/img/heatmap-outcrops.png)
 <p align="center">
-  Heatmap of bedrock exposure in the Baie-James area, northern Québec.
+  <i>Heatmap of bedrock exposure in the Baie-James area, northern Québec.</i>
 </p>
 
 ## How it works
