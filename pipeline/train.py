@@ -20,7 +20,7 @@ from sklearn.model_selection import train_test_split
 try:
     import imgaug.augmenters as iaa
 except ImportError:
-    print("imgaug not found. Do not use the -a --augmentation flags.")
+    print("imgaug not installed. Do not use the -a --augmentation flags.")
 
 from detector.utils import OrthoData, ImgAugTransform
 from detector.utils import count_parameters, train_model, predict

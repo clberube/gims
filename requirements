@@ -1,5 +1,7 @@
-numpy
-gdal
-pytorch
+matplotlib
+GDAL
+scikit-learn
+torch
+torchvision
 rasterio
 h5py

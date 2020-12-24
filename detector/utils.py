@@ -12,7 +12,6 @@ import errno
 import copy
 import time
 
-from tqdm import tqdm
 import numpy as np
 import h5py
 import rasterio
@@ -213,15 +212,13 @@ def train_model(model, dataloaders, epochs,
     start_time = time.time()
 
     best_model_wts = copy.deepcopy(model.state_dict())
-    best_loss = 1.0e10 #best_acc = 0.0
+    best_loss = 1.0e10  # best_acc = 0.0
 
     for j in range(epochs):
         print('Epoch {}/{}'.format(j+1, epochs))
         print('-----------')
 
         # Training phase
-        #if scheduler:
-        #    scheduler.step()
         model.train()
         running_loss = 0.0
         running_corrects = np.array([0.0, 0.0, 0.0])
@@ -355,7 +352,7 @@ def predict(model, data, th=0.5):
             probs = np.zeros(probs_shape, dtype='float32')
             preds = probs.astype('uint8')
 
-            for i, batch in enumerate(tqdm(data)):
+            for i, batch in enumerate(data):
                 idx = i*data.batch_size
                 b_size = len(batch['X'])
                 batch['X'] = batch['X'].to(device)

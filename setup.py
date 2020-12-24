@@ -17,13 +17,14 @@ if os.path.isfile(requirementPath):
         install_requires = f.read().splitlines()
 
 setup(
-    name='gIms',
+    name='gims',
     packages=find_packages(),
-    description='Command line interface for Geospatial Image Segmentation',
+    description='Command line interface for Geospatial IMage Segmentation',
     version='0.0.1',
     url='https://github.com/clberube/gims',
     author='clberube',
     author_email='charles.lafreniere-berube@polymtl.ca',
     keywords=['deep learning', 'GIS', 'unet', 'segmentation'],
+    setup_requires=['numpy'],
     install_requires=install_requires,
     )

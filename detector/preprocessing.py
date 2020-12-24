@@ -10,7 +10,10 @@
 import h5py
 import numpy as np
 import torch
-import imgaug.augmenters as iaa
+try:
+    import imgaug.augmenters as iaa
+except ImportError:
+    print("imgaug not installed. Do not use the -a --augmentation flags.")
 
 
 def make_nd_windows(a, window, steps=None, axis=None, outlist=False):
