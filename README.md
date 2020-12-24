@@ -17,6 +17,13 @@ See [my article](https://medium.com/@charleslberube/orthophoto-segmentation-for-
 - Can be trained, validated and used for predictions in any GIS-related segmentation task.
 - Comes with pre-trained weights for waterbody and bare land detection in the boreal forest.
 
+## Installation
+```console
+$ git clone https://github.com/clberube/gims
+$ cd gims
+$ python setup.py install -f
+```
+
 ## Dependencies
 If you run into any trouble with the setup.py script, try installing each dependencies manually with `conda` or `pip`. The GDAL commands need to be recognized on your system.
 - [PyTorch](https://pytorch.org/)
@@ -26,14 +33,6 @@ If you run into any trouble with the setup.py script, try installing each depend
 - [scikit-learn](https://scikit-learn.org)
 - [rasterio](https://rasterio.readthedocs.io/en/latest/)
 - [h5py](https://www.h5py.org/)
-
-## Installation
-
-```console
-$ git clone https://github.com/clberube/gims
-$ cd gims
-$ python setup.py install -f
-```
 
 ## Training a model
 This example shows how to train a model using an input GeoTIFF and target shapefiles. Training weights are automatically saved with their timestamp as `saved_weights/YYYY-MM-DDTHH-MM-SS.pt`.
