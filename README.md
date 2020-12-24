@@ -2,6 +2,9 @@
 Command line interface for **g**eospatial **im**age **s**egmentation.
 
 ![img](/assets/img/heatmap-outcrops.png)
+<p align="center">
+  Heatmap of bedrock exposure in the Baie-James area, northern Québec.
+</p>
 
 ## How it works
 - Implements the UNet deep learning architecture for supervised segmentation of GIS data.
