@@ -1,4 +1,6 @@
+[![DOI](https://zenodo.org/badge/323506499.svg)](https://zenodo.org/badge/latestdoi/323506499)
 # gims
+
 Python command line interface for generalized **g**eospatial **im**age **s**egmentation.
 
 ![img](/assets/img/heatmap-outcrops.png)
@@ -7,7 +9,7 @@ Python command line interface for generalized **g**eospatial **im**age **s**egme
 </p>
 
 ## Application
-See [my article](https://medium.com/@charleslberube/orthophoto-segmentation-for-outcrop-detection-in-the-boreal-forest-679c3071d51f?source=friends_link&sk=003ef605211c68e12ae3879edb5e81e1) covering this project to assist geological field work planning with drone photography.
+See [my Medium article](https://medium.com/@charleslberube/orthophoto-segmentation-for-outcrop-detection-in-the-boreal-forest-679c3071d51f?source=friends_link&sk=003ef605211c68e12ae3879edb5e81e1) covering an application of this project for geological field work planning.
 
 
 ## How it works
